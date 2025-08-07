@@ -1,0 +1,3 @@
+Um servidor Web é responsável por receber requisições HTTP e disponibilizar conteúdos, como arquivos HTML, imagens, videos, etc.
+Um Contêiner Servlet é responsável por executar aplicações Java que são baseadas em Servlets, processando as requisições dinâmicas,
+como preenchimento de formulário, etc.

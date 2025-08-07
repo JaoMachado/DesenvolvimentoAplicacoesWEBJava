@@ -1,0 +1,2 @@
+Basicamente, é um programa executado pela máquina que é o Servidor, que tem a capacidade de disponibilizar 
+aos outros computadores da rede, os recursos de uma aplicação web, como arquivos HTML, imagens, arquivos de estilos, etc.
