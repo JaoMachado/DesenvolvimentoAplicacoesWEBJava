@@ -1,0 +1,5 @@
+O método GET codifica os parâmetros e seus valores na URL, ou seja, se for um formulário contendo dados privados, como senha,
+esses dados aparecerão na URL, apresentando um risco à segurança. Além disso, o tamanho da URL é fixo, limitando a quantidade,
+o tamanho de dados a serem enviados. 
+Já o método POST não codifica na URL e sim no corpo da requisição, não apresentando risco à segurança e não tendo limite na
+quantidade ou tamanho de dados.
