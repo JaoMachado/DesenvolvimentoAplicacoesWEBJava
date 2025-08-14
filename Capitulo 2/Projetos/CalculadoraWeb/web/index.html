@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Projeto 2.4</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <h1>Calculadora WEB</h1>
+        
+        <form action="processaDadosCalculadoraServlet">
+            
+            <label>Número 1: </label>
+            <input type="number" name="numero1"/>
+            <br/>
+            
+            <label>Número 2: </label>
+            <input type="number" name="numero2"/>
+            <br/>
+            <br/>
+            
+            <label>Operação: </label>
+            <input type="radio" name="operacao" value="A"/> Adição
+            <input type="radio" name="operacao" value="S"/> Subtração
+            <input type="radio" name="operacao" value="M"/> Multiplicação
+            <input type="radio" name="operacao" value="D"/> Divisão
+            <br/>
+            <br/>
+            
+            <input type="submit" value="Enviar Dados"/>
+        </form>
+        
+    </body>
+</html>
