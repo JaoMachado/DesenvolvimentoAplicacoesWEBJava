@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Tabuleiro de Xadrez</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <h1>Cria um tabuleiro com as dimensões e cores desejadas</h1>
+        
+        <form action="exibeTabuleiro.jsp">
+            <label>Linhas:</label>
+            <input type="number" min="1" value="1" name="linhas"/>
+            <br/><br/>
+            <label>Colunas:</label>
+            <input type="number" value="1" name="colunas"/>
+            <br/><br/>
+            <label>Cor 1:</label>
+            <input type="color" name="cor1"/>
+            <br/><br/>
+            <label>Cor 2:</label>
+            <input type="color" name="cor2"/>
+                
+            <br/><br/>
+            <input type="submit" value="Enviar"/>
+            
+        </form>
+        
+    </body>
+</html>
