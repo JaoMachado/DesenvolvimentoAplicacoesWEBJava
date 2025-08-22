@@ -1,0 +1,4 @@
+Exercício 3.2: Justifique porque é melhor usar a JSTL ou qualquer outra TagLib ao
+invés de usar código Java diretamente nas JSPs.
+    -> É melhor porque deixa as JSPs mais limpas, legíveis e fáceis de manter, evitando códigos extensos em Java e separando 
+    a lógica de apresentação de uma maneira mais organizada.

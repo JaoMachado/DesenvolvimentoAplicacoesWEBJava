@@ -1,0 +1,4 @@
+1. Explique, com suas palavras, qual a importância da EL.
+    -> É importante porque permite que se simplifique o desenvolvimento, permitindo acessar os atributos, métodos e objetos 
+    de maneira mais clara, sem precisar usar códigos extensos em java dentro da página, tornando o código mais legível e 
+    facilita a manutenção.
