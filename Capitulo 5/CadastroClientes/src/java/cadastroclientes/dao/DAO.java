@@ -2,12 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package dao;
+package cadastroclientes.dao;
 
+import cadastroclientes.jdbc.ConnectionFactory;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
-import jbdc.ConnectionFactory;
 
 /**
  *
@@ -24,9 +24,13 @@ public abstract class DAO<Tipo> {
     public abstract void salvar(Tipo obj) throws SQLException;
     public abstract void atualizar(Tipo obj) throws SQLException;
     public abstract void excluir(Tipo obj) throws SQLException;
+    public abstract List<Tipo> listarTodos() throws SQLException;
     public abstract Tipo obterPorId(int id) throws SQLException;
-    public abstract List<Tipo> obterTodos() throws SQLException;
     
+    public Connection getConnection() {
+        return conexao;
+    }
+
     public void fecharConexao() throws SQLException{
         conexao.close();
     }

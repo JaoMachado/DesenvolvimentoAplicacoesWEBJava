@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package jbdc;
+package cadastroclientes.jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -29,7 +29,7 @@ public class ConnectionFactory {
          * carregado com base na biblioteca configurada.
          */
         return DriverManager.getConnection(
-                "jdbc:mariadb://localhost/testes_padroes",
+                "jdbc:mariadb://localhost/cadastro_clientes",
                 "root",
                 "" );
 
